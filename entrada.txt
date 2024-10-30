@@ -1,6 +1,6 @@
 program Exemplo;
 var
 x, y : integer;
-z, a, b, r, alooou : real;
+z, a, b, c : real;
 begin
-.
+end.
