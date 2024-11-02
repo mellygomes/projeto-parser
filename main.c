@@ -13,6 +13,7 @@ int main() {
     No *TS = NULL;
     char *tbl[TAM];
 
+    IniciarToken(&token);                   //inicia as variáveis do token, alocando memoria para as strings
     InicializarAnalizadorLexico(lex);           //lê o arquivo fonte a ser analisado, insere o conteudo na fita e inicia as demais variáveis
     InserirPalavrasReservadas(tbl);             //Insere as palavras reservadas na lista
     Inserir(&TS, "\0");                         //Para que a tabela não inicie vazia
@@ -22,6 +23,7 @@ int main() {
     Imprimir(TS);                               //Imprime a tabela de simbolos gerada pelo analisador léxico
 
     //liberação das memórias alocadas
+    LiberarMemoriaToken(&token);                
     free(TS);
     free(lex);
     return 0;
