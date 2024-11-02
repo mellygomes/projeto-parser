@@ -12,7 +12,6 @@ typedef struct No {
 
 void Inserir(No **lista, char *str);
 void Imprimir(No *no);
-char *Buscar(No **lista, char str[]);
 int BuscarIndice(No **lista, char str[]);
 
 #endif

@@ -59,6 +59,8 @@
   "files.associations": {
     "lexico.h": "c",
     "sintatico.h": "c",
-    "hashtable.h": "c"
+    "hashtable.h": "c",
+    "stdlib.h": "c",
+    "string.h": "c"
   }
 }
