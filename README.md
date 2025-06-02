@@ -13,7 +13,7 @@ Compilador parcial para MicroPascal, implementado em C, com suporte à análise 
 ```Bash
 - ./parcer.exe
 ```
-Um arquivo 'listatoken.txt' deve ser gerado, com algo como:
+Um arquivo 'listatoken.lex' deve ser gerado, com algo como:
 ```Ttxt
 <PAL-RES, "program"> 1, 1
 <ID, [1]> 1, 8
